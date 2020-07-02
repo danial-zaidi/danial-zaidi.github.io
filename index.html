@@ -1,21 +1,51 @@
 <!DOCTYPE html>
+
 <html lang = 'en-US'>
-    <head>
-        
+
+    <head>    
+        <!-- Tab title -->
         <title> Danial Zaidi - Personal Website </title>
-
+        
+        <!-- Linking css -->
+        <link rel="stylesheet" href="style.css">
+        <!-- Linking Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    
     </head>
-    <body>
-        <h1 title ="I'm the title lol"> Danial Zaidi</h1>
-        <h2 style="font-size:x-small;"> Watch out for a banger intro hehe</h2>
-        <p title="I'm the intro lol">Hi everyone, my name is Danial Zaidi!</p>
-        <br>
-        <a style='color:black;font: italic;' href = "https://www.reddit.com/r/surrealmemes/comments/e7cemy/wow_it_sucks_to_be_you/">Click this for a cool meme :sunglasses</a>
-        <br>
-        <img src="data:image/jpeg;base64,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" 
-        width='655' height="491">
-        <p> Here is my Instagram!</p>
-        <a style="color: black;" href="https://www.instagram.com/danzxidi/">Insta</a>
+    
+    <!-- Header -->
+    <header>
 
+            <h1> Danial Zaidi </h1>   
+
+
+    </header>
+    
+    <body>
+                <!--Side Bar-->
+        <div class="sidenav">
+                    <a href="#">Home</a>
+                    <a href="#">Schedule</a>
+                    <a href="#">Resume</a>
+        </div>
+        <div class="main">
+            Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+                    
+        </div>
+        
+        
     </body>
+    <footer>
+        <h3>Feel free to reach out!</h3>
+            <a href="https://www.linkedin.com/in/danialzaidi/" target="_blank">Linked</a>
+    </footer>
 </html>

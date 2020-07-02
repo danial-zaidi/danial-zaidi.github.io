@@ -1,0 +1,58 @@
+/* Header */
+header{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+/* Side Bar */
+.sidenav {
+    margin: -10px;
+    margin-top: 50px;
+    padding: 0;
+    width: 130px;
+    position: fixed;
+    height: 100%;
+}
+
+/* Navigation menu links */
+.sidenav a {
+    padding: 16px; /* (in order) top side // right side // bottom side // left side */
+    text-decoration: dashed; /* underline ect */
+    font-size: 30px; /* Size of the links */
+    font-family: 'Nanum Gothic' sans-serif;
+    color: black; /* color of the bar? */
+    display: block; /* again no idea*/
+    position: relative;
+}
+
+/* Hover over nav links change color */
+.sidenav a:hover {
+    color: rgb(255, 255, 255);
+}
+
+/* Style page content */
+.main {
+    margin-left: 120px; /* space between body and sidebar*/
+    padding: 1px; /* spacing for main body */
+    font-family: 'Nanum Gothic', sans-serif;
+} 
+
+/* Footer */
+footer{
+    background-color:rgb(49, 48, 48);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    line-height: 10px;
+    width: 100%;
+    margin: -10px;
+    text-decoration: none;
+}
+/* for smaller screens */
+@media screeen and (max-height: 450px){
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
