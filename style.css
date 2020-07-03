@@ -21,8 +21,9 @@ header{
     font-size: 30px; /* Size of the links */
     font-family: 'Nanum Gothic' sans-serif;
     color: black; /* color of the bar? */
-    display: block; /* again no idea*/
+    display: grid; /* again no idea*/
     position: relative;
+    background-color: bisque;
 }
 
 /* Hover over nav links change color */
