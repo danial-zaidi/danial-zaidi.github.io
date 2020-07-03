@@ -1,13 +1,14 @@
 /* Header */
-header{
+header h1{
     font-family: 'Nanum Gothic', sans-serif;
-    font-size: 30px;
+    font-size: 50px;
     text-align: center;
 }
+
 /* Side Bar */
 .sidenav {
     margin: -10px;
-    margin-top: 50px;
+    margin-top: 70px;
     padding: 0;
     width: 130px;
     position: fixed;
@@ -34,18 +35,25 @@ header{
     border-color: rgb(63, 61, 61);
     transition: 0.3s;
 }
+/* Hover over nav links change color */
 .sidenav-links:hover {
     background-color: rgb(63, 61, 61);
 }
-/* Hover over nav links change color */
-
+.sidenav a:hover{
+    color: whitesmoke;
+    text-decoration: none;
+}
 
 /* Style page content */
 .main {
+    margin-top: 100px;
     margin-left: 150px; /* space between body and sidebar*/
     font-family: 'Nanum Gothic', sans-serif;
 } 
 
+.main a:hover{
+    text-decoration: none;
+}
 /* Footer */
 footer{
     background-color:rgb(49, 48, 48);
