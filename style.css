@@ -84,6 +84,43 @@ footer h3{
     font-size: 20px;
     color: whitesmoke;
 }
+
+/* .icons-mail{
+    color: whitesmoke;
+    cursor: pointer;
+}
+.icons-mail:hover .fa-envolope-o:before{
+    content: "\f11a";
+} */
+
+.icons-mail{
+    color: whitesmoke;
+    cursor:pointer;
+  }
+  
+  .icons-mail:hover .fa-envelope-o:before{
+    content:"\f2b7";
+    color: whitesmoke;
+  }
+
+
+
+.linkedin{
+    color: whitesmoke;
+    vertical-align: bottom;
+}
+.linkedin:hover{
+    color: rgb(42, 120, 238);
+}
+
+.instagram{
+    color: whitesmoke;
+    vertical-align: bottom;
+}
+.instagram:hover{
+    color: rgb(202, 70, 70);
+}
+
 /* for smaller screens */
 @media screen and (max-height: 450px){
     .sidenav {padding-top: 15px;}
