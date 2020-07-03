@@ -1,7 +1,7 @@
 /* Header */
 header{
     font-family: 'Nanum Gothic', sans-serif;
-    font-size: 32px;
+    font-size: 30px;
     text-align: center;
 }
 /* Side Bar */
@@ -16,20 +16,29 @@ header{
 
 /* Navigation menu links */
 .sidenav a {
-    padding: 16px; /* (in order) top side // right side // bottom side // left side */
+    padding: 10px; /* (in order) top side // right side // bottom side // left side */
     text-decoration: none; /* underline ect */
-    font-size: 30px; /* Size of the links */
+    font-size: 25px; /* Size of the links */
     font-family: 'Nanum Gothic' sans-serif;
     color: black; /* color of the bar? */
     display: grid; /* again no idea*/
     position: relative;
-    background-color: bisque;
+    text-align: center;
+    /* background-color: bisque; */
 }
 
-/* Hover over nav links change color */
-.sidenav a:hover {
-    color: grey;
+.sidenav-links {
+    margin-left:10px ;
+    border-style: solid;
+    border-radius: 20pt;
+    border-color: rgb(63, 61, 61);
+    transition: 0.3s;
 }
+.sidenav-links:hover {
+    background-color: rgb(63, 61, 61);
+}
+/* Hover over nav links change color */
+
 
 /* Style page content */
 .main {
