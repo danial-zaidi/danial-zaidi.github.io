@@ -17,7 +17,7 @@ header{
 /* Navigation menu links */
 .sidenav a {
     padding: 16px; /* (in order) top side // right side // bottom side // left side */
-    text-decoration: dashed; /* underline ect */
+    text-decoration: none; /* underline ect */
     font-size: 30px; /* Size of the links */
     font-family: 'Nanum Gothic' sans-serif;
     color: black; /* color of the bar? */
@@ -27,32 +27,45 @@ header{
 
 /* Hover over nav links change color */
 .sidenav a:hover {
-    color: rgb(255, 255, 255);
+    color: grey;
 }
 
 /* Style page content */
 .main {
-    margin-left: 120px; /* space between body and sidebar*/
-    padding: 1px; /* spacing for main body */
+    margin-left: 150px; /* space between body and sidebar*/
     font-family: 'Nanum Gothic', sans-serif;
 } 
 
 /* Footer */
 footer{
     background-color:rgb(49, 48, 48);
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-family: 'Nanum Gothic', sans-serif;
     text-align: center;
     font-size: 15px;
     color: white;
     line-height: 10px;
     width: 100%;
-    margin: -10px;
+    text-decoration: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+/* General footer links */
+footer a{
+    color: whitesmoke;
     text-decoration: none;
 }
+
+/* Footer link visited */
+footer a:visited{
+    color: whitesmoke;
+}
+
 /* for smaller screens */
-@media screeen and (max-height: 450px){
+@media screen and (max-height: 450px){
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
