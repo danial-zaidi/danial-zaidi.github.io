@@ -4,6 +4,9 @@ header h1{
     font-size: 50px;
     text-align: center;
 }
+header a{
+    color: black;
+}
 
 
 /* Side Bar */
@@ -85,37 +88,25 @@ footer h3{
     color: whitesmoke;
 }
 
-/* .icons-mail{
-    color: whitesmoke;
-    cursor: pointer;
+.mail:hover .envelope-o,
+.mail .envelope-open-o {
+    display: none;
 }
-.icons-mail:hover .fa-envolope-o:before{
-    content: "\f11a";
-} */
-
-.icons-mail{
-    color: whitesmoke;
-    cursor:pointer;
-  }
-  
-  .icons-mail:hover .fa-envelope-o:before{
-    content:"\f2b7";
-    color: whitesmoke;
-  }
-
-
+.mail:hover .envelope-open-o {
+    display: inline;
+}
 
 .linkedin{
-    color: whitesmoke;
     vertical-align: bottom;
+    text-align: center;
 }
 .linkedin:hover{
     color: rgb(42, 120, 238);
 }
 
 .instagram{
-    color: whitesmoke;
     vertical-align: bottom;
+    text-align: center;
 }
 .instagram:hover{
     color: rgb(202, 70, 70);
@@ -126,3 +117,4 @@ footer h3{
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
+
