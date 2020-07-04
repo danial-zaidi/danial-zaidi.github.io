@@ -1,14 +1,40 @@
 /* Header */
-header h1{
+
+header{
+    text-align: center; 
+}
+
+h1{
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 50px;
     text-align: center;
 }
+
 header a{
     color: black;
 }
 
+.topnav{
+    overflow: hidden;
+}
 
+.topnav a{
+    float: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: center;
+
+}
+
+/* .topnav-links {
+    margin-left:10px ;
+    border-style: solid;
+    border-radius: 10pt;
+    border-color: rgb(63, 61, 61);
+    transition: 0.3s;
+    width: 55px;
+} */
 /* Side Bar */
 .sidenav {
     margin: -7px;
@@ -19,41 +45,13 @@ header a{
     height: 100%;
 }
 
-/* Navigation menu links */
-.sidenav a {
-    padding: 10px; /* (in order) top side // right side // bottom side // left side */
-    text-decoration: none; /* underline ect */
-    font-size: 25px; /* Size of the links */
-    font-family: 'Nanum Gothic' sans-serif;
-    color: black; /* color of the bar? */
-    display: grid; /* again no idea*/
-    position: relative;
-    text-align: center;
-    /* background-color: bisque; */
-}
-
-.sidenav-links {
-    margin-left:10px ;
-    border-style: solid;
-    border-radius: 20pt;
-    border-color: rgb(63, 61, 61);
-    transition: 0.3s;
-}
-/* Hover over nav links change color */
-.sidenav-links:hover {
-    background-color: rgb(63, 61, 61);
-}
-.sidenav a:hover{
-    color: whitesmoke;
-    text-decoration: none;
-}
-
 /* Style page content */
 .main {
-    margin-top: 100px;
-    margin-left: 150px; /* space between body and sidebar*/
     font-family: 'Nanum Gothic', sans-serif;
+    position: fixed;
 } 
+
+
 
 .main a:hover{
     text-decoration: none;
@@ -75,8 +73,7 @@ footer{
 
 /* General footer links */
 footer a{
-    color: whitesmoke;
-    text-decoration: none;
+    font-size: 20px;
 }
 
 /* Footer link visited */
@@ -91,9 +88,11 @@ footer h3{
 .mail:hover .envelope-o,
 .mail .envelope-open-o {
     display: none;
+    vertical-align: bottom;
 }
 .mail:hover .envelope-open-o {
     display: inline;
+    color: dodgerblue;
 }
 
 .linkedin{
@@ -114,7 +113,6 @@ footer h3{
 
 /* for smaller screens */
 @media screen and (max-height: 450px){
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+    .footer {padding-top: 15px;}
 }
 
