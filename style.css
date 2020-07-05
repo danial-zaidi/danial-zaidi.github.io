@@ -1,90 +1,71 @@
-/* Header */
-
+/* Top Navigation*/
 header{
-    text-align: center; 
+    font-family: "Nanum Gothic" sans-serif;
 }
-
-h1{
-    font-family: 'Nanum Gothic', sans-serif;
-    font-size: 50px;
-    text-align: center;
-}
-
 header a{
     color: black;
+    font-size: 25px;
+    letter-spacing: 2px;
 }
 
 .topnav{
     overflow: hidden;
 }
 
-.topnav a{
+ul{
+    list-style: none;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    letter-spacing: 10px;
+}
+li{
     float: left;
-    padding: 14px 16px;
+    padding: 7px;
+}
+li a{
+    display: inline;
+}
+
+li a:hover{
     text-decoration: none;
-    font-size: 17px;
+    font-style: italic ;
+    color: black;
+}
+/* End of Top Navigation */
+
+
+/* Main Body */
+.main{
+    margin: auto;
+    display: block;
+    max-width: 75%;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* End of Main Body */
+
+
+/* title + Title Icons*/
+.title{
     text-align: center;
-
 }
 
-/* .topnav-links {
-    margin-left:10px ;
-    border-style: solid;
-    border-radius: 10pt;
-    border-color: rgb(63, 61, 61);
-    transition: 0.3s;
-    width: 55px;
-} */
-/* Side Bar */
-.sidenav {
-    margin: -7px;
-    margin-top: 70px;
-    padding: 0;
-    width: 130px;
-    position: fixed;
-    height: 100%;
-}
-
-/* Style page content */
-.main {
-    font-family: 'Nanum Gothic', sans-serif;
-    position: fixed;
-} 
-
-
-
-.main a:hover{
-    text-decoration: none;
-}
-/* Footer */
-footer{
-    background-color:rgb(49, 48, 48);
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-family: 'Nanum Gothic', sans-serif;
-    line-height: 10px;
-    width: 100%;
-    text-decoration: none;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-}
-
-/* General footer links */
-footer a{
+.linkicons a{
+    color: black;
+    letter-spacing: 2px;
     font-size: 20px;
 }
 
-/* Footer link visited */
-footer a:visited{
-    color: whitesmoke;
+.linkicons a:hover{
+    text-decoration: none;
 }
-footer h3{
-    font-size: 20px;
-    color: whitesmoke;
-}
+/* End of Title */
 
+
+/* Icons */
 .mail:hover .envelope-o,
 .mail .envelope-open-o {
     display: none;
@@ -93,6 +74,7 @@ footer h3{
 .mail:hover .envelope-open-o {
     display: inline;
     color: dodgerblue;
+    text-decoration: none;
 }
 
 .linkedin{
@@ -111,8 +93,49 @@ footer h3{
     color: rgb(202, 70, 70);
 }
 
-/* for smaller screens */
-@media screen and (max-height: 450px){
-    .footer {padding-top: 15px;}
+.github{
+    vertical-align: bottom;
+    text-align: center;
 }
 
+.facebook{
+    vertical-align: bottom;
+    text-align: center;
+}
+.facebook:hover{
+    color: rgb(3, 58, 187);
+}
+/* End of Icons */
+
+
+/* Footer */
+footer{
+    background-color:rgb(49, 48, 48);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+    line-height: 10px;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+footer a{
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: whitesmoke;
+}
+footer a:hover{
+    text-decoration: none;
+}
+footer a:visited{
+    color: whitesmoke;
+}
+
+footer h3{
+    font-size: 20px;
+    color: whitesmoke;
+}
+/* End of Footer */
