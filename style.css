@@ -7,6 +7,7 @@ header a{
     color: black;
     font-size: 25px;
     letter-spacing: 1px;
+
 }
 
 .topnav{
@@ -49,11 +50,14 @@ li a:hover{
     margin-top: 20px;
     margin-bottom: 100px;
     font-family: "Nanum Gothic" sans-serif;
-    font-size: 20px;
+    font-size: 17px;
 }
 .main h2{
-    font-size: 25px;
+    font-size: 28px;
     font-weight: lighter;
+}
+.main a:hover{
+    text-decoration: none;
 }
 /* End of Main Body */
 
@@ -70,13 +74,14 @@ li a:hover{
 }
 .linkicons{
     text-align: center;
+
 }
 
 .linkicons a{
     color: black;
     letter-spacing: 2px;
     font-size: 20px;
-    vertical-align: top;
+
 }
 
 .linkicons a:hover{
@@ -89,7 +94,8 @@ li a:hover{
 .mail:hover .envelope-o,
 .mail .envelope-open-o {
     display: none;
-    vertical-align: middle;
+    vertical-align: top;
+
 }
 .mail:hover .envelope-open-o {
     display: inline;
