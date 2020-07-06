@@ -20,7 +20,8 @@ ul{
     letter-spacing: 10px;
 }
 li{
-    float: left;
+    text-align: center;
+    display: inline;
     padding: 7px;
 }
 li a{
@@ -84,7 +85,7 @@ li a:hover{
 .mail:hover .envelope-o,
 .mail .envelope-open-o {
     display: none;
-    vertical-align: top;
+    vertical-align: middle;
 }
 .mail:hover .envelope-open-o {
     display: inline;
