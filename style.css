@@ -183,6 +183,7 @@ footer h3{
     margin-top: 20px;
     margin-bottom: 100px;
     background-color: dodgerblue;
+    border: 1px solid black;
 }
 /* th{
     width: auto;
