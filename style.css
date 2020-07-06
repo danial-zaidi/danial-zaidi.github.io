@@ -1,3 +1,5 @@
+/* Home Page */
+
 /* Top Navigation*/
 header{
     font-family: "Nanum Gothic" sans-serif;
@@ -7,7 +9,6 @@ header a{
     color: black;
     font-size: 25px;
     letter-spacing: 1px;
-
 }
 
 .topnav{
@@ -74,7 +75,6 @@ li a:hover{
 }
 .linkicons{
     text-align: center;
-
 }
 
 .linkicons a{
@@ -166,10 +166,29 @@ footer a:visited{
 footer h3{
     font-size: 15px;
     color: whitesmoke;
+    
 }
 /* End of Footer */
 
 
-/* Footer for Mobile */
+/* Schedule Page */
+.termtables{
+    margin: auto;
+    display: block;
+    max-width: 90%;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    background-color: dodgerblue;
+}
+/* th{
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+} */
+/* .termtables th{
 
-/* End of Footer for Mobile */
+} */
