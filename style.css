@@ -36,6 +36,9 @@ li a:hover{
 
 
 /* Main Body */
+body{
+    font-family: "Nanum Gothic" sans-serif;
+}
 .main{
     margin: auto;
     display: block;
@@ -44,6 +47,8 @@ li a:hover{
     padding-right: auto;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 100px;
 }
 /* End of Main Body */
 
@@ -51,6 +56,7 @@ li a:hover{
 /* title + Title Icons*/
 .title{
     text-align: center;
+    font-family: "Nanum Gothic" sans-serif;
 }
 
 .linkicons a{
