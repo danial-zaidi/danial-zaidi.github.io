@@ -36,9 +36,6 @@ li a:hover{
 
 
 /* Main Body */
-body{
-    font-family: "Nanum Gothic" sans-serif;
-}
 .main{
     margin: auto;
     display: block;
@@ -49,33 +46,45 @@ body{
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 100px;
+    font-family: "Nanum Gothic" sans-serif;
+}
+.main h2{
+    font-size: 25px;
 }
 /* End of Main Body */
 
 
-/* title + Title Icons*/
+/* Title + Title Icons*/
 .title{
     text-align: center;
-    font-family: "Nanum Gothic" sans-serif;
+    font-family: "Maven Pro" sans-serif;
+}
+
+.title h1{
+    font-size: 50px;
+}
+.linkicons{
+    text-align: center;
 }
 
 .linkicons a{
     color: black;
     letter-spacing: 2px;
     font-size: 20px;
+    vertical-align: top;
 }
 
 .linkicons a:hover{
     text-decoration: none;
 }
-/* End of Title */
+/* End of Title + Title Icons */
 
 
 /* Icons */
 .mail:hover .envelope-o,
 .mail .envelope-open-o {
     display: none;
-    vertical-align: bottom;
+    vertical-align: top;
 }
 .mail:hover .envelope-open-o {
     display: inline;
@@ -84,7 +93,7 @@ body{
 }
 
 .linkedin{
-    vertical-align: bottom;
+    vertical-align: top;
     text-align: center;
 }
 .linkedin:hover{
@@ -92,7 +101,7 @@ body{
 }
 
 .instagram{
-    vertical-align: bottom;
+    vertical-align: top;
     text-align: center;
 }
 .instagram:hover{
@@ -100,12 +109,12 @@ body{
 }
 
 .github{
-    vertical-align: bottom;
+    vertical-align: top;
     text-align: center;
 }
 
 .facebook{
-    vertical-align: bottom;
+    vertical-align: top;
     text-align: center;
 }
 .facebook:hover{
@@ -128,20 +137,28 @@ footer{
     bottom: 0;
     left: 0;
 }
+
 footer a{
-    font-size: 20px;
+    font-size: 15px;
     letter-spacing: 2px;
     color: whitesmoke;
 }
+
 footer a:hover{
     text-decoration: none;
 }
+
 footer a:visited{
     color: whitesmoke;
 }
 
 footer h3{
-    font-size: 20px;
+    font-size: 15px;
     color: whitesmoke;
 }
 /* End of Footer */
+
+
+/* Footer for Mobile */
+
+/* End of Footer for Mobile */
