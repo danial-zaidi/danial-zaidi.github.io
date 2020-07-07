@@ -40,6 +40,9 @@ li a:hover{
 
 
 /* Main Body */
+body{
+    margin-bottom: 100px;
+}
 .main{
     margin: auto;
     display: block;
@@ -49,7 +52,7 @@ li a:hover{
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
     font-family: "Nanum Gothic" sans-serif;
     font-size: 17px;
 }
@@ -173,23 +176,16 @@ footer h3{
 
 /* Schedule Page */
 .termtables{
+    max-width: 85%;
     margin: auto;
-    display: block;
-    max-width: 90%;
-    padding-left: auto;
-    padding-right: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
+    font-family: "Nanum Gothic" sans-serif;
     margin-bottom: 100px;
-    background-color: dodgerblue;
-    border: 1px solid black;
 }
-/* th{
-    width: auto;
+th{
+    padding-top: 15px;
     padding-left: 20px;
-    padding-right: 20px;
-} */
-/* .termtables th{
-
-} */
+    font-weight: 500;
+}
+td{
+    font-weight: 300;
+}
