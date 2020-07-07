@@ -22,16 +22,16 @@ ul{
     margin: 0px;
     letter-spacing: 5px;
 }
-li{
+ul li{
     text-align: center;
     display: inline;
     padding: 7px;
 }
-li a{
+ul li a{
     display: inline;
 }
 
-li a:hover{
+ul li a:hover{
     text-decoration: none;
     font-style: italic ;
     color: black;
@@ -40,9 +40,6 @@ li a:hover{
 
 
 /* Main Body */
-body{
-    margin-bottom: 100px;
-}
 .main{
     margin: auto;
     display: block;
@@ -52,7 +49,6 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
-    margin-bottom: 100px;
     font-family: "Nanum Gothic" sans-serif;
     font-size: 17px;
 }
@@ -175,26 +171,26 @@ footer h3{
 
 /* Schedule Page */
 .termtables{
-    max-width: 75%;
+    max-width: 100%;
     margin: auto;
     margin-left: auto;
     margin-right: auto;
     padding-left: auto;
     padding-right: auto;
+
     font-family: "Nanum Gothic" sans-serif;
     margin-bottom: 100px;
 }
-th{
+.termtables th{
     font-weight: 500;
     line-height: 16px;
     padding-top: 40px;
 }
-td{
-    font-weight: 300;
-;
+.termtables td{
+    font-weight: 200;
 }
 .coursename{
-    font-size: 12px;
+    font-size: 10px;
     padding-top: -10px;
     line-height: 12px;
 }
@@ -202,3 +198,43 @@ td{
     font-size: 15px;
     padding-top: 5px;
 }
+
+.column{
+    width: 33.33%;
+    max-width: 75%;
+    /* text-align: center; */
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: auto;
+    padding-left: 20px;
+    display: block;
+    align-content: center;
+}
+.row h4{
+    text-align: center;
+    font-weight: 400;
+}
+.row{
+    margin-bottom: 100px;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.column li{
+    font-size: 15px;
+}
+
+
+@media screen and (max-width:600px){
+	.column{
+    	width:50%
+    }
+}
+@media screen and (max-width:400px){
+	.column{
+    	width:100%
+    }
+ } 
