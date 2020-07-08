@@ -80,7 +80,7 @@ ul li a:hover{
     color: black;
     letter-spacing: 2px;
     font-size: 20px;
-
+    vertical-align: top;
 }
 
 .linkicons a:hover{
@@ -100,7 +100,10 @@ ul li a:hover{
     color: dodgerblue;
     text-decoration: none;
 }
-
+.envelope-o {
+    vertical-align: top;
+    text-align: center;
+}
 .linkedin{
     vertical-align: top;
     text-align: center;
