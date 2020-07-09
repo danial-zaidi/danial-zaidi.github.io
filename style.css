@@ -15,7 +15,7 @@ header a{
     overflow: hidden;
 }
 
-ul{
+.topnav ul{
     list-style: none;
     text-decoration: none;
     padding: 0px;
@@ -43,7 +43,7 @@ ul li a:hover{
 .main{
     margin: auto;
     display: block;
-    max-width: 75%;
+    max-width: 90%;
     padding-left: auto;
     padding-right: auto;
     margin-left: auto;
@@ -51,6 +51,7 @@ ul li a:hover{
     margin-top: 20px;
     font-family: "Nanum Gothic" sans-serif;
     font-size: 17px;
+    margin-bottom: 100px; 
 }
 .main h2{
     font-size: 28px;
@@ -80,6 +81,7 @@ ul li a:hover{
     font-size: 20px;
     color: black;
     letter-spacing: 2px;
+    font-size: 20px;
     vertical-align: top;
 }
 
@@ -103,7 +105,10 @@ ul li a:hover{
     color: dodgerblue;
     text-decoration: none;
 }
-
+.envelope-o {
+    vertical-align: top;
+    text-align: center;
+}
 .linkedin{
     vertical-align: top;
 }
@@ -169,15 +174,7 @@ footer h3{
 
 
 /* Schedule Page */
-.row h4{
-    margin-top: 25px;
-    text-align: center;
-    font-weight: 400;
-}
-.row{
-    max-width: 100%;
-    margin-bottom: 100px;
-}
+
 .coursename{
     font-size: 50px;
 }
@@ -187,36 +184,19 @@ footer h3{
     padding-top: 5px;
 }
 
-.column{
-    width: 33%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: auto;
+.term{
+    min-width: 300px;
+    max-width: 300px;
+    float: left;
+}
+
+.schedule{
     padding-left: auto;
-    display: block;
+    padding-right: auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-.columncontent{
-    align-items: center;
-
+.term h4{
+    margin-top: 30px;
 }
-.column li{
-    font-size: 20px;
-    font-weight: 300;
-}
-.column td{
-    font-size: 100px;
-    font-weight: 100;
-}
-
-@media screen and (max-width:700px){
-	.column{
-    	width:50%
-    }
-}
-@media screen and (max-width:400px){
-	.column{
-    	width:100%
-    }
- } 
