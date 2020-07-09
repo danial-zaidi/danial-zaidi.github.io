@@ -77,10 +77,10 @@ ul li a:hover{
 }
 
 .linkicons a{
+    font-size: 20px;
     color: black;
     letter-spacing: 2px;
-    font-size: 20px;
-
+    vertical-align: top;
 }
 
 .linkicons a:hover{
@@ -90,6 +90,9 @@ ul li a:hover{
 
 
 /* Icons */
+.envelope-open-o{
+    vertical-align: top;
+}
 .mail:hover .envelope-o,
 .mail .envelope-open-o {
     display: none;
@@ -103,7 +106,6 @@ ul li a:hover{
 
 .linkedin{
     vertical-align: top;
-    text-align: center;
 }
 .linkedin:hover{
     color: rgb(42, 120, 238);
@@ -111,7 +113,6 @@ ul li a:hover{
 
 .instagram{
     vertical-align: top;
-    text-align: center;
 }
 .instagram:hover{
     color: rgb(202, 70, 70);
@@ -119,12 +120,10 @@ ul li a:hover{
 
 .github{
     vertical-align: top;
-    text-align: center;
 }
 
 .facebook{
     vertical-align: top;
-    text-align: center;
 }
 .facebook:hover{
     color: rgb(3, 58, 187);
@@ -170,46 +169,8 @@ footer h3{
 
 
 /* Schedule Page */
-.termtables{
-    max-width: 100%;
-    margin: auto;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: auto;
-    padding-right: auto;
-
-    font-family: "Nanum Gothic" sans-serif;
-    margin-bottom: 100px;
-}
-.termtables th{
-    font-weight: 500;
-    line-height: 16px;
-    padding-top: 40px;
-}
-.termtables td{
-    font-weight: 200;
-}
-.coursename{
-    font-size: 10px;
-    padding-top: -10px;
-    line-height: 12px;
-}
-.coursecode{
-    font-size: 15px;
-    padding-top: 5px;
-}
-
-.column{
-    width: 33.33%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: auto;
-    padding-left: 20px;
-    display: block;
-}
 .row h4{
-    margin-top: 20px;
+    margin-top: 25px;
     text-align: center;
     font-weight: 400;
 }
@@ -217,10 +178,28 @@ footer h3{
     max-width: 100%;
     margin-bottom: 100px;
 }
-.row:after{
-    content: "";
-    display: table;
-    clear: both;
+.coursename{
+    font-size: 50px;
+}
+
+.coursecode{
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.column{
+    width: 33%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: auto;
+    padding-left: auto;
+    display: block;
+}
+
+.columncontent{
+    align-items: center;
+
 }
 .column li{
     font-size: 20px;
