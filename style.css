@@ -43,7 +43,7 @@ ul li a:hover{
 .main{
     margin: auto;
     display: block;
-    max-width: 90%;
+    max-width: 80%;
     padding-left: auto;
     padding-right: auto;
     margin-left: auto;
@@ -188,12 +188,12 @@ footer h3{
     min-width: 300px;
     max-width: 300px;
     float: left;
+    min-height: 100px;
 }
 
 .schedule{
     margin: auto;
-    display: block;
-    max-width: 90%;
+    max-width: 80%;
     font-family: "Nanum Gothic" sans-serif;
     padding-left: auto;
     padding-right: auto;
@@ -201,7 +201,7 @@ footer h3{
     margin-left: auto;
     margin-bottom: 100px;
     overflow: hidden;
-    /* text-align: center; */
+    display: inline-flexbox;
 }
 
 .term h4{
