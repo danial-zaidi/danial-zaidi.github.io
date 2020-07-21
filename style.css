@@ -209,7 +209,7 @@ footer h3{
 }
 
 @media (max-width: 950px){
-    .term{
+    .schedule,.term{
         float: center;
         padding-left: auto;
         padding-right: auto;
