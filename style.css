@@ -204,6 +204,10 @@ footer h3{
     display: inline-flexbox;
 }
 
+.year {
+    margin: 3vh 0 3vh 0;
+}
+
 .term h4{
     margin-top: 50px;
 }
